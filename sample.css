@@ -1,0 +1,316 @@
+/* Basic Styles */
+.head {
+    background-color: rgba(65, 56, 190, 0.809);
+    color: chartreuse;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+}
+img{
+    position: relative;
+    width: 900px;
+    float: left;
+    
+
+   
+}
+
+body {
+    background-color: #f3ededcd;
+    
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #354a04cb;
+
+    
+}
+
+.solution {
+    background-color: #21201a;
+    color: rgb(211, 205, 205);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+    transition: background-color 0.3s;
+    font-size: 40px;
+        font-weight: bold;
+    
+      
+}
+
+.sentence {
+    background-color: #5533ff;
+    width: 80%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.sentence:nth-child(2) { background-color: #ff33da; } /* Blue */
+.sentence:nth-child(3) { background-color: #337effc4; } /* Green */
+.sentence:nth-child(4) { background-color: #c533ff76; } /* Pink */
+.sentence:nth-child(5) { background-color: #33ffa387; } /* Yellow */
+.sentence:nth-child(6) { background-color: #ff333346; } /* Orange */
+
+/* Hover effect */
+.sentence:hover {
+    background-color: #000000; /* Black */
+}
+
+.solution:hover {
+    background-color: #000000; /* Black */
+}
+
+/* Teacher for image is starting */
+
+.Teachers {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: flex-start; 
+    background-color: #0b5069ed;
+    /* Align items to the left */
+}
+
+.left-image {
+    width: 450px;
+    height: 350px;
+    margin-right: 20px; 
+    flex: 1; /* Take up the remaining space */
+    text-align: center; /* Center-align the text within the container */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* Optional: add space between the image and the text */
+}
+
+.text-content {
+    text-align: right; /* Align text to the right */
+}
+
+.Teachers h1, .Teachers p {
+    margin: 2;
+    padding: 2;
+    text-align: right;
+    flex: 1; /* Take up the remaining space */
+    text-align: center; /* Center-align the text within the container */
+    padding-right: 20px
+}
+
+/* safe and supportive for image is starting */
+
+
+.safe {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: flex-start; 
+    background-color: #082712;
+    /* Align items to the left */
+}
+
+.l-image {
+    width: 450px;
+    height: 350px;
+    margin-right: 20px; 
+    flex: 1; /* Take up the remaining space */
+    text-align: center; /* Center-align the text within the container */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* Optional: add space between the image and the text */
+}
+
+.text1 {
+    text-align: right; /* Align text to the right */
+}
+
+.safe h1, .safe p {
+    margin: 2;
+    padding: 2;
+    text-align: right;
+    flex: 1; /* Take up the remaining space */
+    text-align: center; /* Center-align the text within the container */
+    padding-right: 20px
+}
+
+
+
+
+/* safe and supportive for image is starting */
+
+
+
+.Innovation {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: flex-start; 
+    background-color: #433c2bcb;
+    /* Align items to the left */
+}
+
+.i-image {
+    width: 450px;
+    height: 350px;
+    margin-right: 20px; 
+    flex: 1; /* Take up the remaining space */
+    text-align: center; /* Center-align the text within the container */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* Optional: add space between the image and the text */
+}
+
+.text2 {
+    text-align: right; /* Align text to the right */
+}
+
+.Innovation h1, .Innovation p {
+    margin: 2;
+    padding: 2;
+    text-align: right;
+    flex: 1; /* Take up the remaining space */
+    text-align: center; /* Center-align the text within the container */
+    padding-right: 20px
+}
+
+
+
+
+/* safe and supportive for image is starting */
+
+
+
+
+
+.Holistic {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: flex-start; 
+    background-color: #21290ecb;
+    /* Align items to the left */
+}
+
+.j-image {
+    width: 450px;
+    height: 350px;
+    margin-right: 20px; 
+    flex: 1; /* Take up the remaining space */
+    text-align: center; /* Center-align the text within the container */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* Optional: add space between the image and the text */
+}
+
+.text3 {
+    text-align: right; /* Align text to the right */
+}
+
+.Holistic h1, .Holistic p {
+    margin: 2;
+    padding: 2;
+    text-align: right;
+    flex: 1; /* Take up the remaining space */
+    text-align: center; /* Center-align the text within the container */
+    padding-right: 20px
+}
+
+
+
+
+
+.Engaging{
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: flex-start; 
+    background-color: #290e174a;
+    /* Align items to the left */
+}
+
+.k-image {
+    width: 450px;
+    height: 350px;
+    margin-right: 20px; 
+    flex: 1; /* Take up the remaining space */
+    text-align: center; /* Center-align the text within the container */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* Optional: add space between the image and the text */
+}
+
+.text4 {
+    text-align: left; /* Align text to the right */
+}
+
+.Engaging h1, .Engaging p {
+    margin: 2;
+    padding: 2;
+    text-align: right;
+    flex: 1; /* Take up the remaining space */
+    text-align: center; /* Center-align the text within the container */
+    padding-right: 20px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Inclusive{
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: flex-start; 
+    background-color: #240e298f;
+    /* Align items to the left */
+}
+
+.m-image {
+    width: 450px;
+    height: 350px;
+    margin-right: 20px; 
+    flex: 1; /* Take up the remaining space */
+    text-align: center; /* Center-align the text within the container */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* Optional: add space between the image and the text */
+}
+
+.text5{
+    text-align: left; /* Align text to the right */
+}
+
+.Inclusive h1, .Inclusive p {
+    margin: 2;
+    padding: 2;
+    text-align: right;
+    flex: 1; /* Take up the remaining space */
+    text-align: center; /* Center-align the text within the container */
+    padding-right: 20px
+}
+
